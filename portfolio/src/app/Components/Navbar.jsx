@@ -1,5 +1,22 @@
 import Link from 'next/link'
-const Navbar = () => {
+// import React, { useEffect } from 'react'
+
+export default function Navbar() {
+  // const [scrolled, setScrolled] = React.useState(false);
+
+  // const handleScroll = () => {
+  //   const offset = window.scrollY;
+
+  //   if (offset > 200) {
+  //     setScrolled(true);
+  //   }
+  //   else {
+  //     setScrolled(false);
+  //   }
+  // }
+  // useEffect(() => {
+  //   window.addEventListener('scroll', handleScroll)
+  // })
 
   return (
     <ul>
@@ -19,4 +36,3 @@ const Navbar = () => {
   )
 }
 
-export default Navbar

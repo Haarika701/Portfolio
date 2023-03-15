@@ -4,22 +4,13 @@ export default function Page() {
             <h1>Get in Touch
             </h1>
             <ul>
-                <li><p>LinkedIn</p>
+                <li><p>LinkedIn : https://www.linkedin.com/in/haarika-ramadugu/</p>
                 </li>
                 <li>
-                    <p>Github</p>
+                    <p>Github: Haarika701</p>
                 </li>
                 <li>
-                    <p>Upwork</p>
-                    <p>Description</p>
-                </li>
-                <li>
-                    <p>Email</p>
-                    <p>Description</p>
-                </li>
-                <li>
-                    <p>Project Name</p>
-                    <p>Description</p>
+                    <p>Email: hramadugu@gmail.com</p>
                 </li>
             </ul>
         </div>);
