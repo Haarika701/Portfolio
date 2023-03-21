@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import "bootstrap/dist/css/bootstrap.min.css";
 // import React, { useEffect } from 'react'
 
 export default function Navbar() {
@@ -19,20 +20,25 @@ export default function Navbar() {
   // })
 
   return (
-    <ul>
-      <li>
-        <Link href="/">Home</Link>
-      </li>
-      <li>
-        <Link href="/about">About</Link>
-      </li>
-      <li>
-        <Link href="/contact">Contact</Link>
-      </li>
-      <li>
-        <Link href="/projects">Projects</Link>
-      </li>
-    </ul>
+    <nav role="navigation">
+      <ul className='nav justify-content-end py-4 px-5'>
+        <li className='nav-item py-3 py-lg-4'>
+          <Link className='nav-link active text-md' href="/">Home</Link>
+        </li>
+        <li className='nav-item py-3 py-lg-4'>
+          <Link className='nav-link active' href="/about">About</Link>
+        </li>
+        <li className='nav-item py-3 py-lg-4'>
+          <Link className='nav-link active' href="/contact">Contact</Link>
+        </li>
+        <li className='nav-item py-3 py-lg-4'>
+          <Link className='nav-link active' href="/projects">Projects</Link>
+        </li>
+        <li className='nav-item py-3 py-lg-4'>
+          <Link className='nav-link active' href="/resume">Resume</Link>
+        </li>
+      </ul>
+    </nav >
   )
 }
 
