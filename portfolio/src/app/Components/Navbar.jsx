@@ -20,24 +20,36 @@ export default function Navbar() {
   // })
 
   return (
-    <nav role="navigation">
-      <ul className='nav justify-content-end py-4 px-5'>
+    <nav className='justify-content-end py-3 py-4' >
+
+      <ul className='nav justify-content-end ' role="navigation">
         <li className='nav-item py-3 py-lg-4'>
-          <Link className='nav-link active text-md' href="/">Home</Link>
+          <Link className='nav-link active text-md' style={{
+            color: "#000000"
+          }} href="/">Home</Link>
         </li>
         <li className='nav-item py-3 py-lg-4'>
-          <Link className='nav-link active' href="/about">About</Link>
+          <Link className='nav-link active' href="/about" style={{
+            color: "#000000"
+          }}>About</Link>
         </li>
         <li className='nav-item py-3 py-lg-4'>
-          <Link className='nav-link active' href="/contact">Contact</Link>
+          <Link className='nav-link active' href="/contact" style={{
+            color: "#000000"
+          }}>Contact</Link>
         </li>
         <li className='nav-item py-3 py-lg-4'>
-          <Link className='nav-link active' href="/projects">Projects</Link>
+          <Link className='nav-link active' href="/projects" style={{
+            color: "#000000"
+          }}>Projects</Link>
         </li>
         <li className='nav-item py-3 py-lg-4'>
-          <Link className='nav-link active' href="/resume">Resume</Link>
+          <Link className='nav-link active' href="/resume" style={{
+            color: "#000000"
+          }}>Resume</Link>
         </li>
-      </ul>
+      </ul >
+
     </nav >
   )
 }
