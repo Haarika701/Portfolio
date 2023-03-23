@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import "bootstrap/dist/css/bootstrap.min.css";
 // import React, { useEffect } from 'react'
 
@@ -20,37 +21,46 @@ export default function Navbar() {
   // })
 
   return (
-    <nav className='justify-content-end py-3 py-4' >
+    <>
+      <nav className='navbar navbar-sm navbar-light bg-light' >
+        <div className="navbar-brand" href="#"><Image src="/static/logo.png" width={70} height={70} /></div>
+        <div className=''>
+          <ul className='nav justify-content-center my-4' role="navigation">
+            <li className='nav-item '>
+              <Link className='nav-link active text-md' href="/" style={{
+                color: "#000000"
+              }}>Home</Link>
+            </li>
+            <li className='nav-item '>
+              <Link className='nav-link active' href="/about" style={{
+                color: "#000000"
+              }}>About</Link>
+            </li>
 
-      <ul className='nav justify-content-end ' role="navigation">
-        <li className='nav-item py-3 py-lg-4'>
-          <Link className='nav-link active text-md' style={{
-            color: "#000000"
-          }} href="/">Home</Link>
-        </li>
-        <li className='nav-item py-3 py-lg-4'>
-          <Link className='nav-link active' href="/about" style={{
-            color: "#000000"
-          }}>About</Link>
-        </li>
-        <li className='nav-item py-3 py-lg-4'>
-          <Link className='nav-link active' href="/contact" style={{
-            color: "#000000"
-          }}>Contact</Link>
-        </li>
-        <li className='nav-item py-3 py-lg-4'>
-          <Link className='nav-link ' href="/projects" style={{
-            color: "#000000"
-          }}>Projects</Link>
-        </li>
-        <li className='nav-item py-3 py-lg-4'>
-          <Link className='nav-link active' href="/resume" style={{
-            color: "#000000"
-          }}>Resume</Link>
-        </li>
-      </ul >
+            <li className='nav-item '>
+              <Link className='nav-link ' href="/projects" style={{
+                color: "#000000"
+              }}>Projects</Link>
 
-    </nav >
+            </li>
+            <li className='nav-item'>
+              <Link className='nav-link active' href="/contact" style={{
+                color: "#000000"
+              }}>Contact</Link>
+            </li>
+          </ul >
+        </div>
+      </nav >
+    </>
   )
 }
+/* 
 
+
+ href="/resume"
+ 
+ <li className='nav-item py-3 py-lg-4'>
+          <Link className='nav-link active' style={{
+            color: "#000000"
+          }}>Contact</Link>
+        </li>*/

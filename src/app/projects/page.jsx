@@ -1,31 +1,90 @@
+import Image from 'next/image'
 export default function Page() {
     return (
         <div>
             <h1 className="text-wrap px-5 py-3 w-50">Some Things I have built
             </h1>
-            <div className="px-5 py-3">
-                <ul>
-                    <li><p>Project Name  : https://github.com/Haarika701/gallivanter-travel-planner</p>
-                        <p>Description : A travel itineary planner application that allows users to create itinearies, save the information and view everything at one place.</p>
+            <div class="row row-cols-3 g-4 px-5 gap-4 justify-content-left ">
+                {/* <div class="col"> */}
+                <div class="card" style={{ width: "20em" }}>
+                    <div className="card-image">
+                        <Image src="/static/screen1.png" width={250} height={200} class="card-img-top" alt="Screenshot" />
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Gallivanter: A Travel Itineary App</h5>
+                        <p class="card-text">A travel itineary planner application that allows users to create itinearies, save the information and view everything at one place.</p>
 
-                    </li>
-                    <li>
-                        <p>Project Name : https://github.com/Oluwayemisi-s/instantGroceries</p>
-                        <p>Description : An instant grocery app that allows users to shop for various groceries and get deliveries instantly.</p>
-                    </li>
-                    <li>
-                        <p>Project Name : https://github.com/Haarika701/foodie-world</p>
-                        <p>Description</p>
-                    </li>
-                    <li>
-                        <p>Project Name : https://github.com/Haarika701/Vintage-Pop-up-Frontend</p>
-                        <p>Description :This would be our third project created at Flatiron School. This project was done with about 6-9 weeks of learning Javascript, React, Ruby with ActiveRecord and SQL. We had imagined our project to encapsulate an E-commerce single page application. We wanted to create this project to show our knowledge with SQL and creating our own frontend and backend functionality. The main focus of this project was to build our backend fully flushed out.</p>
-                    </li>
-                    <li>
-                        <p>Project Name : https://github.com/Haarika701/Spacestagram</p>
-                        <p>Description : The application displays the images of universe with description and date. The images are loaded using NASA's APOD (Astronomy Picture of the Day) API. This application was built using React and styled using Material -UI and deployed using Netlify.</p>
-                    </li>
-                </ul>
+                        <a class="btn" href="https://github.com/Haarika701/gallivanter-travel-planner" role="button"> <Image src="/static/github-mark.png" height={30} width={30} /></a>
+                        {/* <div class="mask" style={{ backgroundColor: `hsla({0, 0%,98%, 0.2})` }}>
+                                <div class="d-flex justify-content-center align-items-center h-100">
+                                    <p class="text-white mb-0">Can you see me?</p>
+                                </div>
+                            </div>
+                            <div class="hover-overlay">
+                                <div class="mask" style={{ backgroundColor: `hsla({0, 0%,98%, 0.2})` }}></div>
+                            </div> */}
+                        {/* </a> */}
+                    </div>
+                </div>
+                <div class="card" style={{ width: "20em" }}>
+                    <div className="card-image">
+                        <Image src="/static/screen.png" width={200} height={200} class="card-img-top" alt="Screenshot" />
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">instantGroceries</h5>
+                        <p class="card-text">An instant grocery app that allows users to shop for various groceries and get deliveries instantly.</p>
+
+                        <a class="btn" href="https://github.com/Oluwayemisi-s/instantGroceries" role="button"> <Image src="/static/github-mark.png" height={30} width={30} /></a>
+                    </div>
+                </div>
+                <div class="card" style={{ width: "20em" }}>
+                    <div className="card-image">
+                        <Image src="/static/screen.png" width={200} height={200} class="card-img-top" alt="Screenshot" />
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Vintage Pop-Up</h5>
+                        <p class="card-text">This would be our third project created at Flatiron School. This project was done with about 6-9 weeks of learning Javascript, React, Ruby with ActiveRecord and SQL. We had imagined our project to encapsulate an E-commerce single page application. We wanted to create this project to show our knowledge with SQL and creating our own frontend and backend functionality. The main focus of this project was to build our backend fully flushed out.</p>
+
+                        <a class="btn" href="https://github.com/Haarika701/Vintage-Pop-up-Frontend" role="button"> <Image src="/static/github-mark.png" height={30} width={30} /></a>
+                    </div>
+                </div>
+                <div class="card" style={{ width: "20em" }}>
+                    <div className="card-image">
+                        <Image src="/static/screen.png" width={200} height={200} class="card-img-top" alt="Screenshot" />
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Foodie'sWorld</h5>
+                        <p class="card-text">A web application to store favorite recipes and add new recipes created by foodies!</p>
+                        <a class="btn" href="https://github.com/Oluwayemisi-s/instantGroceries" role="button"> <Image src="/static/github-mark.png" height={30} width={30} /></a>
+                    </div>
+                </div>
+                <div class="card" style={{ width: "20em" }}>
+                    <div className="card-image">
+                        <Image src="/static/screen.png" width={200} height={200} class="card-img-top" alt="Screenshot" />
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Spacestagram</h5>
+                        <p class="card-text">The application displays the images of universe with description and date. The images are loaded using NASA's APOD (Astronomy Picture of the Day) API. This application was built using React and styled using Material -UI and deployed using Netlify.</p>
+
+                        <a class="btn" href="https://github.com/Haarika701/Spacestagram" role="button"> <Image src="/static/github-mark.png" height={30} width={30} /></a>
+                    </div>
+                </div>
+                <div class="card" style={{ width: "20em" }}>
+                    <div class="card-body">
+                        <h5 class="card-title">Refresh and Roulette</h5>
+                        <p class="card-text">A fun single page web application, trivia game with true or false choices and a feedback form at the end of the quiz.</p>
+
+                        <a class="btn" href="https://github.com/Haarika701/Spacestagram" role="button"> <Image src="/static/github-mark.png" height={30} width={30} /></a>
+                    </div>
+                </div>
+                {/* </div> */}
             </div>
-        </div>);
+
+        </div>
+    );
 }

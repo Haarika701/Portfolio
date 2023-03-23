@@ -1,19 +1,13 @@
 // import { Button } from "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Image from 'next/image'
+
 import Link from "next/link";
 export default function Page() {
-
-    // const projectData = {
-    //     name1: Gallivanter: A Travel Itineary App;
-    // }
-    // let code = hsla(0, 0%,98%, 0.2);
     return (
         <div>
-            <div className=" d-flex flex-wrap justify-content-start py-4 px-5 " style={{ backgroundColor: "#f7ddd0" }}>
+            <div className=" d-flex  justify-content-start py-5 px-5 " style={{ backgroundColor: "#fbece6" }}>
                 <div>
-                    <h4 className="displ">Hi, my name is</h4>
-                    <h1>Haarika.</h1>
+                    <h4 className="displ">Hi, my name is</h4><h1>Haarika.</h1>
                     <h3> I love building applications.</h3>
                     <div className="text-wrap">
                         <p className="mw-60 text-lg w-50">I am a Full Stack Engineer specialise in
@@ -23,104 +17,6 @@ export default function Page() {
                     </div>
 
                 </div>
-            </div>
-            <div className=" d-flex flex-wrap justify-content-end">
-                <h1 className="px-5 py-2">About Me</h1>
-                <div className="d-flex flex-wrap justify-content-end">
-                    <p className=" px-5 py-3 w-50">I have a bachelor's degree in computer science and experience in semi-technical support. While working with engineers to solve customer issues, I gained insights into software development which sparked an interest in problem-solving. I taught myself how to use Java to build applications. Later I joined a coding Bootcamp to find a platform to get into the software industry. This Bootcamp helped me hone my software skills. I love collaborating with people with a keen interest in solving intellectual and interpersonal problems.
-                        Skills and Interests
-                        •Languages: JavaScript (ES6), Java, Ruby, TypeScript
-                        •Frameworks: React, NextJS, Rails, Spring Framework, Hibernate
-                        •Other: CSS, HTML, SQL, RDBMS, TailWind CSS, Material UI</p>
-                </div>
-            </div>
-            <div>
-                <h1 className="text-wrap px-5 py-3 w-50">Some Things I have built
-                </h1>
-                <div class="row row-cols-2 row-cols-md-2 g-5">
-                    {/* <div class="col"> */}
-                    <div class="card justify-content-space-around" style={{ width: "20em" }}>
-                        <div className="card-image d">
-                            <Image src="/static/screen1.png" width={200} height={100} class="card-img-top" alt="Screenshot" />
-                            <div class="image-overlay"></div>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Gallivanter: A Travel Itineary App</h5>
-                            <p class="card-text">A travel itineary planner application that allows users to create itinearies, save the information and view everything at one place.</p>
-
-                            <a class="btn" href="https://github.com/Haarika701/gallivanter-travel-planner" role="button"> <Image src="/static/github-mark.png" height={30} width={30} /></a>
-                            {/* <div class="mask" style={{ backgroundColor: `hsla({0, 0%,98%, 0.2})` }}>
-                                <div class="d-flex justify-content-center align-items-center h-100">
-                                    <p class="text-white mb-0">Can you see me?</p>
-                                </div>
-                            </div>
-                            <div class="hover-overlay">
-                                <div class="mask" style={{ backgroundColor: `hsla({0, 0%,98%, 0.2})` }}></div>
-                            </div> */}
-                            {/* </a> */}
-                        </div>
-                    </div>
-
-
-
-                    <div class="card" style={{ width: "20em" }}>
-                        <div className="card-image">
-                            <Image src="/static/screen.png" width={200} height={200} class="card-img-top" alt="Screenshot" />
-                            <div class="image-overlay"></div>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">instantGroceries</h5>
-                            <p class="card-text">An instant grocery app that allows users to shop for various groceries and get deliveries instantly.</p>
-
-                            <a class="btn" href="https://github.com/Oluwayemisi-s/instantGroceries" role="button"> <Image src="/static/github-mark.png" height={30} width={30} /></a>
-                        </div>
-                    </div>
-                    <div class="card" style={{ width: "20em" }}>
-                        <div className="card-image">
-                            <Image src="/static/screen.png" width={200} height={200} class="card-img-top" alt="Screenshot" />
-                            <div class="image-overlay"></div>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Vintage Pop-Up</h5>
-                            <p class="card-text">This would be our third project created at Flatiron School. This project was done with about 6-9 weeks of learning Javascript, React, Ruby with ActiveRecord and SQL. We had imagined our project to encapsulate an E-commerce single page application. We wanted to create this project to show our knowledge with SQL and creating our own frontend and backend functionality. The main focus of this project was to build our backend fully flushed out.</p>
-
-                            <a class="btn" href="https://github.com/Haarika701/Vintage-Pop-up-Frontend" role="button"> <Image src="/static/github-mark.png" height={30} width={30} /></a>
-                        </div>
-                    </div>
-                    <div class="card" style={{ width: "20em" }}>
-                        <div className="card-image">
-                            <Image src="/static/screen.png" width={200} height={200} class="card-img-top" alt="Screenshot" />
-                            <div class="image-overlay"></div>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Foodie'sWorld</h5>
-                            <p class="card-text">A web application to store favorite recipes and add new recipes created by foodies!</p>
-                            <a class="btn" href="https://github.com/Oluwayemisi-s/instantGroceries" role="button"> <Image src="/static/github-mark.png" height={30} width={30} /></a>
-                        </div>
-                    </div>
-                    <div class="card" style={{ width: "20em" }}>
-                        <div className="card-image">
-                            <Image src="/static/screen.png" width={200} height={200} class="card-img-top" alt="Screenshot" />
-                            <div class="image-overlay"></div>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Spacestagram</h5>
-                            <p class="card-text">The application displays the images of universe with description and date. The images are loaded using NASA's APOD (Astronomy Picture of the Day) API. This application was built using React and styled using Material -UI and deployed using Netlify.</p>
-
-                            <a class="btn" href="https://github.com/Haarika701/Spacestagram" role="button"> <Image src="/static/github-mark.png" height={30} width={30} /></a>
-                        </div>
-                    </div>
-                    <div class="card" style={{ width: "20em" }}>
-                        <div class="card-body">
-                            <h5 class="card-title">Refresh and Roulette</h5>
-                            <p class="card-text">A fun single page web application, trivia game with true or false choices and a feedback form at the end of the quiz.</p>
-
-                            <a class="btn" href="https://github.com/Haarika701/Spacestagram" role="button"> <Image src="/static/github-mark.png" height={30} width={30} /></a>
-                        </div>
-                    </div>
-                    {/* </div> */}
-                </div>
-
             </div>
         </div >
     );

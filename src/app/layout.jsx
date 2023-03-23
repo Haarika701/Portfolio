@@ -9,17 +9,17 @@ export default function RootLayout({ children }) {
                 <link rel="icon" href="/favicon.ico" />
             </head>
             <body style={{
-                backgroundColor: "#f7ddd0"
+                backgroundColor: "#fbede6"
             }} >
                 <header>
                     <Navbar />
                 </header>
                 <main>{children}</main>
 
-                {/* <footer>
-                    <div>
-                        <h1 className="text-wrap px-5 py-3 d-flex justify-content-center">Get in Touch
-                        </h1>
+                <footer>
+                    <div className="pt-5 mt-5">
+                        <h4 className="text-wrap px-5 py-3 d-flex align-items-flex-end justify-content-center">Get in Touch
+                        </h4>
                         <ul>
                             <p className="px-4 d-flex justify-content-center">LinkedIn : https://www.linkedin.com/in/haarika-ramadugu/</p>
                             <p className="px-4 d-flex justify-content-center">Github: Haarika701</p>
@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
 
                         </ul>
                     </div>
-                </footer >  */}
+                </footer >
 
             </body >
         </html >
