@@ -15,20 +15,6 @@ export default function RootLayout({ children }) {
                     <Navbar />
                 </header>
                 <main>{children}</main>
-
-                <footer>
-                    <div className="pt-5 mt-5">
-                        <h4 className="text-wrap px-5 py-3 d-flex align-items-flex-end justify-content-center">Get in Touch
-                        </h4>
-                        <ul>
-                            <p className="px-4 d-flex justify-content-center">LinkedIn : https://www.linkedin.com/in/haarika-ramadugu/</p>
-                            <p className="px-4 d-flex justify-content-center">Github: Haarika701</p>
-                            <p className="px-4 d-flex justify-content-center">Email: hramadugu@gmail.com</p>
-
-                        </ul>
-                    </div>
-                </footer >
-
             </body >
         </html >
     );
