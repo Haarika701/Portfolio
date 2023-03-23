@@ -39,7 +39,7 @@ export default function Navbar() {
           }}>Contact</Link>
         </li>
         <li className='nav-item py-3 py-lg-4'>
-          <Link className='nav-link active' href="/projects" style={{
+          <Link className='nav-link ' href="/projects" style={{
             color: "#000000"
           }}>Projects</Link>
         </li>
