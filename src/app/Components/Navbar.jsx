@@ -22,7 +22,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className='navbar navbar-sm navbar-light bg-light' >
+      <nav className='navbar navbar-sm navbar-light' >
         <div className="navbar-brand" href="#"><Image src="/static/logo.png" width={70} height={70} /></div>
         <div className=''>
           <ul className='nav justify-content-center my-4' role="navigation">
