@@ -2,7 +2,7 @@ import Image from 'next/image'
 export default function Page() {
     return (
         <div className='mt-5'>
-            <h1 className="text-wrap px-5 py-5 w-50">Some Things I have built
+            <h1 className="text-wrap px-5 py-5 w-50">Some Things I Have Built
             </h1>
             <div class="row row-cols-3 g-4 px-5 gap-4 d-flex justify-content-left align-items-flex-start ">
                 {/* <div class="col"> */}
