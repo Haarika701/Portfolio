@@ -43,11 +43,6 @@ export default function Navbar() {
               }}>Projects</Link>
 
             </li>
-            <li className='nav-item'>
-              <Link className='nav-link active' href="/contact" style={{
-                color: "#000000"
-              }}>Contact</Link>
-            </li>
           </ul >
         </div>
       </nav >
