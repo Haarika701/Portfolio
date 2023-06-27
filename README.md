@@ -9,13 +9,12 @@
   </h1>
 
 <p align="left">
-  <samp>
- I recently completed an internship with Divercity. I have a bachelor's degree in computer science and experience in semi-technical support. While working with engineers to solve customer issues, I gained insights into software development which sparked an interest in problem-solving. I taught myself how to use Java to build applications. Later I joined a coding Bootcamp to find a platform to get into the software industry. This Bootcamp helped me hone my software skills. I am eager to use these skills and experiences for my next full-time role as a software engineer
+  <samp>I have recently finished an internship with the company Divercity. With a bachelor's degree in computer science and previous experience in semi-technical support, I collaborated with engineers to resolve customer issues. This exposure to software development piqued my interest in problem-solving, and I taught myself to build applications using Java. To further my skills and find a way into the software industry, I enrolled in a coding Bootcamp, where I honed my skills. I am excited to apply my skills and experiences to my next full-time position as a software engineer.
   </samp>
   </p>
   <p align="left">
   <samp>
-This repository consists of collection of projects I have worked on till now.I am working currently on improving the application to make it more dynamic and add more conent about my previous and current experiences.
+This collection of projects showcases my past work. I am currently working on enhancing the application by adding more dynamic features, including additional content about my past and present experiences, and creating a visually appealing website.
   </samp>
   </p>
  
