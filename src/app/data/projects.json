@@ -1,0 +1,47 @@
+{ "projects" :[
+    {
+        "project":"Gallivanter: A Travel Itineary App Version 1" ,
+        "desc":"A travel itineary planner application that allows users to create itinearies, save the information and view everything at one place.",
+        "tag":"Done"
+    },
+    {
+        "project":"instantGroceries",
+        "desc":"An instant grocery app that allows users to shop for various groceries and get deliveries instantly.",
+        "tag":"Done"
+    },
+    {
+        "project":"Vintage Pop-Up",
+        "desc":"This would be our third project created at Flatiron School. This project was done with about 6-9 weeks of learning Javascript, React, Ruby with ActiveRecord and SQL. We had imagined our project to encapsulate an E-commerce single page application. We wanted to create this project to show our knowledge with SQL and creating our own frontend and backend functionality. The main focus of this project was to build our backend fully flushed out.",
+        "tag":"Done"
+    },
+    {
+        "project":"Foodie'sWorld",
+        "desc":"A web application to store favorite recipes and add new recipes created by foodies!",
+        "tag":"Done"
+    },
+    {
+        "project":"Spacestagram",
+        "desc":"The application displays the images of universe with description and date. The images are loaded using NASA's APOD (Astronomy Picture of the Day) API. This application was built using React and styled using Material -UI and deployed using Netlify.",
+        "tag":"Done"
+    },
+    {
+        "project":"Refresh and Roulette",
+        "desc":"A fun single page web application, trivia game with true or false choices and a feedback form at the end of the quiz.",
+        "tag":"Done"
+    },
+    {
+        "project":"URL Shortener App",
+        "desc":"Built a URL shortener with Python and FastAPI. URLs can be extremely long and not user-friendly. This is where a URL shortener can come in handy. A URL shortener reduces the number of characters in a URL, making it easier to read, remember, and share.",
+        "tag":"In Progress"
+    },
+    {
+        "project":"Recur Web",
+        "desc":"Recur is a learning-to-code application that you can use on the web (https://www.recurcode.com). We built this from the ground up to create a realistic production environment within which Fellows can get real-world engineering experience, with code reviews from senior engineers at top-tier companies.",
+        "tag":"Done"
+    },
+    {"project":"Gallivanter: A Travel Itineary App Version 1.2",
+      "desc":"Architected and developed a cross-functional travel planning application for iOS using React Native, delivering a seamless user experience, and maximizing code reuse (version 1).Revamping the application's UI, resulting in a more intuitive and user-friendly interface, while ensuring compatibility across various mobile devices, and reducing the number of taps required for users to complete the main tasks by 20%.",
+      "tag":"In Progress"
+    }
+
+]}
