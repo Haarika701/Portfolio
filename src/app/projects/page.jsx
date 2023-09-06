@@ -1,7 +1,15 @@
 import Image from 'next/image'
-
+import projects from '../projects.json'
 export default function Page() {
+
+    const item = projects.data.map(product => {
+        return product
+    })
+    // let title = console.log(item.map(data => {
+    //     return data.Object.value(projects)
+    // }))
     return (
+
         <div className='mt-5'>
             <h1 className="text-wrap px-5 py-5 w-50">Some Things I Have Built
             </h1>
@@ -13,7 +21,8 @@ export default function Page() {
                         <div class="image-overlay"></div>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Gallivanter: A Travel Itineary App</h5>
+
+                        <h5 class="card-title">Gallivanter: A Travel Itineary App </h5>
                         <p class="card-text">A travel itineary planner application that allows users to create itinearies, save the information and view everything at one place.</p>
 
                         <a class="btn" href="https://github.com/Haarika701/gallivanter-travel-planner" role="button"> <Image src="/static/github-mark.png" height={30} width={30} /></a>
@@ -66,9 +75,35 @@ export default function Page() {
                         <a class="btn" href="https://github.com/Haarika701/Spacestagram" role="button"> <Image src="/static/github-mark.png" height={30} width={30} /></a>
                     </div>
                 </div>
-                {/* </div> */}
+                <div class="card" style={{ width: "20em" }}>
+                    <div class="card" style={{ width: "20em" }}>
+                        <div className="card-image">
+                            <Image src="/static/url.png" width={200} height={200} class="card-img-top" alt="Screenshot" />
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">URL Shortener App</h5>
+                            <p class="card-text">Built a URL shortener with Python and FastAPI. URLs can be extremely long and not user-friendly. This is where a URL shortener can come in handy. A URL shortener reduces the number of characters in a URL, making it easier to read, remember, and share.</p>
+                            <a class="btn" href="https://github.com/Haarika701/url-shortener-app" role="button"> <Image src="/static/github-mark.png" height={30} width={30} /></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style={{ width: "20em" }}>
+                    <div className="card-image">
+                        <Image src="/static/formation.png" width={200} height={200} class="card-img-top" alt="Screenshot" />
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Recur Web</h5>
+                        <p class="card-text">Recur is a learning-to-code application that you can use on the web (https://www.recurcode.com). We built this from the ground up to create a realistic production environment within which Fellows can get real-world engineering experience, with code reviews from senior engineers at top-tier companies.
+
+                            Please note: This is a private repository</p>
+                        <a class="btn" role="button"> <Image src="/static/github-mark.png" height={30} width={30} /></a>
+                    </div>
+
+                </div>
             </div>
 
-        </div >
+        </div>
     );
 }

@@ -1,4 +1,4 @@
-import Navbar from "../src/app/Components/Navbar";
+import Navbar from "../Components/Navbar";
 
 
 function MyApp({ Component, pageProps }) {

@@ -1,4 +1,4 @@
-{ "projects" :[
+{ "data" :[
     {
         "project":"Gallivanter: A Travel Itineary App Version 1" ,
         "desc":"A travel itineary planner application that allows users to create itinearies, save the information and view everything at one place.",
