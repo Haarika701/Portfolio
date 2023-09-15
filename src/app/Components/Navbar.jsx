@@ -22,7 +22,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className='navbar navbar-sm navbar-light' >
+      <nav className='navbar navbar-md navbar-light' >
         <div className="navbar-brand" href="#"><Image src="/static/logo.png" width={70} height={70} /></div>
         <div className=''>
           <ul className='nav justify-content-center my-4' role="navigation">
@@ -38,7 +38,7 @@ export default function Navbar() {
             </li>
 
             <li className='nav-item '>
-              <Link className='nav-link ' href="/projects" style={{
+              <Link className='nav-link' href="/projects" style={{
                 color: "#000000"
               }}>Projects</Link>
 

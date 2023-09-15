@@ -2,12 +2,6 @@ import Image from 'next/image'
 import projects from '../projects.json'
 export default function Page() {
 
-    const item = projects.data.map(product => {
-        return product
-    })
-    // let title = console.log(item.map(data => {
-    //     return data.Object.value(projects)
-    // }))
     return (
 
         <div className='mt-5'>
