@@ -1,18 +1,20 @@
 import Link from "next/link";
 import "bootstrap/dist/css/bootstrap.min.css";
+import HireMebutton from "./Components/HireMeButton";
 // import HireMebut
 export default function Page() {
     return (
 
         <div className="d-flex justify-content-center py-5 px-5" >
             <div className="mt-5 pt-5 py-5 col-lg-5">
-                <span className="displ mt-5 pt-5">Full Stack Developer</span>
+                <span className="display mt-5 pt-5"><h3>Full Stack Developer</h3></span>
                 <h1 className="mb-4">Haarika Ramadugu</h1>
                 <div className="text-wrap">
-                    <p className="mw-60 text-lg w-50"> specialising in
+                    <p className="w-20 text-lg"> specialising in
                         building customer-centric web applications
                         that solve real world problems
                         and provide seamless user experience.</p>
+                    {/* <HireMebutton /> */}
                 </div>
             </div>
             <div class="card" style={{ width: 70 + 'rem', height: 200 }}>
