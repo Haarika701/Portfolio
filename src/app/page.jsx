@@ -17,7 +17,7 @@ export default function Page() {
                     {/* <HireMebutton /> */}
                 </div>
             </div>
-            <div class="card" style={{ width: 40 + 'rem' }}>
+            <div className="card" style={{ width: 40 + 'rem' }}>
                 <img src="/static/portfolio2.jpeg" className="card-img-top" alt="profile"></img>
             </div>
             {/* <Link href="https://www.linkedin.com/in/haarika-ramadugu/" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="40" fill="#0a66c2" marginLeft="10" class="bi bi-linkedin" viewBox="0 0 16 16">

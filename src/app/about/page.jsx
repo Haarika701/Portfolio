@@ -2,13 +2,15 @@
 
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Experience from "../Components/Experience";
+import HireMebutton from "../Components/HireMeButton";
+import DownloadCV from "../Components/DownloadCV";
+// import Experience from "../Components/Experience";
 export default function Page() {
 
-   
+
 
     return (
-        <> <script src="http://localhost:8097"></script>
+        <>
 
             <div className=" d-flex flex-wrap justify-content-start mt-5 py-5">
                 <h1 className="px-5">About Me</h1>
@@ -20,11 +22,15 @@ export default function Page() {
                         •Frameworks: React, NextJS, Rails, Spring Framework, Hibernate
                         <br />
                         •Other: CSS, HTML, SQL, RDBMS, TailWind CSS, Material UI
-                        <h4 className="mt-4" >Where I have worked</h4> <Experience />
-
-
                     </p>
+                    <div>
+                        {/* <HireMebutton />
+                        <DownloadCV /> */}
+                    </div>
+
                 </div>
+
+
             </div>
         </>);
 }

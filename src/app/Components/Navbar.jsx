@@ -20,8 +20,6 @@ export default function Navbar() {
   //   // useEffect(() => {
   //   //   window.addEventListener('scroll', handleScroll)
   //   // })
-
-
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
@@ -38,10 +36,10 @@ export default function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className="collapse navbar-collapse" id="main-navbar">
-          <ul className="navbar-nav ml-auto">
-            <li className="nav-item">
-              <Link className="nav-link" href="#home-section">
+        <div className="collapse navbar-collapse justify-content-center" id="main-navbar">
+          <ul className="navbar-nav">
+            <li className="nav-item active">
+              <Link className="nav-link" href="/">
                 Home
               </Link>
             </li>
@@ -55,12 +53,16 @@ export default function Navbar() {
                 Portfolio
               </Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" href="/resume">
+                Resume
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
   );
 };
-
 
 
