@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // import HireMebutton from "../Components/HireMeButton";
 // import DownloadCV from "../Components/DownloadCV";
 // import Experience from "../Components/Experience";
-export default function Page() {
+export default function About() {
     return (
         <>
 

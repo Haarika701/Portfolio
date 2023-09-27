@@ -1,6 +1,6 @@
 import Image from 'next/image'
 // import projects from '../projects.json'
-export default function Page() {
+export default function Projects() {
 
     return (
 
