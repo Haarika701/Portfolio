@@ -2,7 +2,7 @@
 
 import Experience from "../Components/Experience";
 import React from "react";
-export default function Resume() {
+export default function Page() {
     return (
         <>
             <Experience />
