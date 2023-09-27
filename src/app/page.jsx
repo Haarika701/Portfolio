@@ -1,6 +1,6 @@
 import Link from "next/link";
 import "bootstrap/dist/css/bootstrap.min.css";
-import HireMebutton from "./Components/HireMeButton";
+// import HireMebutton from "./Components/HireMeButton";
 // import HireMebut
 export default function Page() {
     return (
