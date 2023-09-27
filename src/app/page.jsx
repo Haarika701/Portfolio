@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Image from "next/image";
 // import HireMebutton from "./Components/HireMeButton";
 // import HireMebut
-export default function Page() {
+export const Page = () => {
     return (
 
         <div className="d-flex justify-content-center py-5 px-5" >
